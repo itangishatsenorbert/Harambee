@@ -87,8 +87,14 @@
 
   <!-- Footer section -->
   <footer>
-    <p>Website Made By Norbert</p>
+    <p>&copy; <span id="year"></span> Website Made By NORBERT From Ingisghtech</p>
   </footer>
+
+  <!-- Script to update the year -->
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
   <script src="./script.js"></script>
 </body>
 
